@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: bold;
+  color: #0278ae;
+}
+
+div {
+  margin: 0;
+}
+
+h1 {
+  color: #e8ffc1;
+  font-family: 'Great Vibes', cursive;
+  font-size: 6.25rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #e8ffc1;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: 'Share Tech', sans-serif;
+  color: #a5ecd7;
+  letter-spacing: 2px;
+  font-size:20px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #008891;
+  border-width: .3125rem;
+  width: 3%;
+  margin: 4.6875rem auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #e8ffc1;
+}
+
+p {
+  line-height: 2
+}
+
+
+/*********** containers **********/
+
+.top-container {
+  background-color: #0278ae;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  padding-top: 4.6875rem;
+  background-color: #51adcf;
+  margin: 0
+}
+
+.bottom-container {
+  background-color: #0278ae;
+  padding: 20px;
+
+}
+
+/*********** images **********/
+.Avatar {
+  border-radius: 50%;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 12.5rem;
+  top: 3.125rem;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 12.5rem;
+  bottom: 18.75rem;
+}
+
+
+/***********Profile***********/
+.profile {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+/*********** My Skills/Middle Container **********/
+
+.skill-row-1 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row-2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.skill-1 {
+  width: 9.375rem;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2 {
+  width: 7.8125rem;
+  border-radius: 10%;
+  float: right;
+  margin-left: 30px;
+}
+
+/***********Contact Me*********/
+.contact-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.contact-me-btn {
+   background: #51ADCF;
+   background-image: -webkit-linear-gradient(top, #51ADCF, #0278AE);
+   background-image: -moz-linear-gradient(top, #51ADCF, #0278AE);
+   background-image: -ms-linear-gradient(top, #51ADCF, #0278AE);
+   background-image: -o-linear-gradient(top, #51ADCF, #0278AE);
+   background-image: -webkit-gradient(to bottom, #51ADCF, #0278AE);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #e8ffc1;;
+   border: solid #0278AE 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 3.75rem;
+   margin-top: 1.5625rem;
+}
+
+.contact-me-btn:hover {
+   border: solid 0;
+   background: #51ADCF;
+   background-image: -webkit-linear-gradient(top, #a5ecd7, #e8ffc1);
+   background-image: -moz-linear-gradient(top, #a5ecd7, #e8ffc1);
+   background-image: -ms-linear-gradient(top, #a5ecd7, #e8ffc1);
+   background-image: -o-linear-gradient(top, #a5ecd7, #e8ffc1);
+   background-image: -webkit-gradient(to bottom, #a5ecd7, #e8ffc1);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   color: #0278ae;
+   text-decoration: none;
+}
+
+/*********** Footer **********/
+
+.footer-link {
+  color: #a5ecd7;
+  padding: 15px;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.copyright {
+  color: #e8ffc1;
+  font-size: 15px;
+  padding: 20px 0;
+}
